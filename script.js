@@ -40,16 +40,19 @@ $(function(){
 
 function init(){
     for (position in coins) {
-		let html = "";
+		let count = 0;
         let currSet = coins[position];
         for (coin in currSet) {
 			let temp = template.slice(0,58) + currSet[coin] + template.slice(58);
-			
-            html += "<hr>";
-            html += temp;
+			temp += "<hr>";
+			let selector = "#";
+			selector+=position;
+			selector+=count%2;
+			console.log('count: ' + count);
+			console.log(selector);
+			count++;
+			$(selector).append(temp);
         }
-		let selector = "#";
-		selector+=position;
-		$(selector).html(html);
+		
     }
 }
