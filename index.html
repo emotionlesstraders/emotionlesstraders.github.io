@@ -7,13 +7,13 @@
     <title>YUMP!</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-
     <link rel="stylesheet" href="style.css">
+    <!--Links will not load in external js file unless the script tag below is included-->
+    <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
 </head>
 <body class="bg-light">
-
+    
     <div class="jumbotron jumbotron-fluid header">
-
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -22,28 +22,33 @@
             </div>
             <br><br><br><br><br>
         </div>
-
     </div>   
 
-    <section>
-        <h1 class="display-3">Longterm HODLs</h1>
-        <div class="container" id="longterm"></div>
-    </section>
+    <div class="container-fluid">
+        <section>
+            <h1 class="display-3">Longterm HODLs</h1>
+            <div class="container" id="longterm"></div>
+        </section>
+    </div>
 
     <hr>
 
-    <section>
-        <h1 class="display-3">Short term/Mid term plays</h1>
-        <div class="container" id="shortmidterm"></div>
-    </section>    
+    <div class="container-fluid">
+        <section>
+            <h1 class="display-3">Short term/Mid term plays</h1>
+            <div class="container" id="shortmidterm"></div>
+        </section>    
+
+    </div>    
 
     <hr>
 
-    
-    <section>
-        <h1 class="display-3">Crowd Favorites</h1>
-        <div class="container" id="crowdfavorites"></div>
-    </section>    
+    <div class="container-fluid">
+        <section>
+            <h1 class="display-3">Crowd Favorites</h1>
+            <div class="container" id="crowdfavorites"></div>
+        </section>    
+    </div>    
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
