@@ -56,3 +56,12 @@ function init(){
 		
     }
 }
+
+/**
+ * TWITTER:
+ * influencers:
+ * @cryptogat @cryptocobain, @cryptodemedici, @whalepanda
+ * 
+ * people:
+ * @venturecoinist, @diaryofamademan, @apompliano, @aantonop
+ */ 
