@@ -30,7 +30,12 @@ let coins = {
                 DENT: "dent",
                 DRGN: "dragonchain",
                 AION: "aion"
-			}
+			},
+        gat:  {
+                ELF: "aelf",
+                CRED: "verify",
+                PROC: "procurrency"
+        }  
 };
 
 
@@ -65,3 +70,13 @@ function init(){
  * people:
  * @venturecoinist, @diaryofamademan, @apompliano, @aantonop
  */ 
+
+/**
+ * TELEGRAM:
+ * 
+ * https://t.me/ICO_reports
+ * https://t.me/BitcoinBravado
+ * https://t.me/cryptogatgemclub
+ * https://t.me/fastsignals
+ * 
+ */
